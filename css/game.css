@@ -1,0 +1,34 @@
+.background    { background: rgb(39, 85, 150);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(41, 32, 112);}
+.wall          { background: rgb(232, 127, 109);   }
+.floater	   { background: #a59470; }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url("star.gif");
+		  background-size: 12px 12px; }
+.jewel	{ background-image: url("ball.gif");
+		  background-size: 12px 12px; }
+.player { background-image: url("Left_shark.png");
+		  background-size: 16px 30px;}
+.portal { background-image: url("surfboard.png");
+		  background-size: 20px 20px; }
+.key 	{ background-image: url("key.png");
+		  background-size: 12px 12px;}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background-image: url("Left_shark.png");
+		  background-size: 16px 30px;
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
